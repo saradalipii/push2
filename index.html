@@ -1,0 +1,58 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>likes</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container d-flex">
+        <h1 class="first_h1">Network</h1>
+        <h1 class="second_h1">Your Feed</h1>
+        <div class="main ">
+            <div class="first_block d-flex">
+                <img src="user-circle.png"  height="100px" width="100px" alt="">
+                <p class="txt">Add on avatar</p>
+                <h3>James Doe</h3>
+            </div>
+            <div class="row_blocks">
+                <div class="rfirst_block d-flex">
+                    <div class="block_top">
+                        <h3 class="name">Neil M</h3>
+                        <div class="first_likes">
+                            <h3><span id="num1_likes">9</span> likes</h3>
+                            <button class="btn" onclick='count("#num1_likes")'>Like</button>
+                        </div>
+                    </div>
+                    <p>I just set up this discord bot, let me now what you all think. <span class="txt">link</span> </p>
+                </div>
+                <div class="rsecond_block d-flex">
+                    <div class="block_top">
+                        <h3 class="name">Nichole K</h3>
+                        <div class="second_likes">
+                            <h3><span id="num2_likes">12</span> likes</h3>
+                            <button class="btn" onclick='count("#num2_likes")'>Like</button>
+                        </div>
+                    </div>
+                    <p>Just finished <span class="txt">my next comic </span>check it out</p>
+                </div>
+                <div class="rthird_block d-flex">
+                    <div class="block_top">
+                        <h3 class="name">Jim R</h3>
+                        <div class="third_likes">
+                            <h3><span id="num3_likes">9</span> likes</h3>
+                            <button class="btn" onclick='count("#num3_likes")'>Like</button>
+                        </div>
+                    </div>
+                    <p>I can't stop listening to the <span class="txt">new album.</span> Who else is liking it? </p>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</body>
+<script src="script.js"></script>
+</html>
